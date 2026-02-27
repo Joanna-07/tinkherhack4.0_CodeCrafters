@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TruthLens Report</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark">
+
+<div class="sidebar">
+  <h2 class="logo">TruthLens</h2>
+  <a href="index.html">🏠 Analyze</a>
+  <a href="newsroom.html">📰 Newsroom</a>
+  <a href="insights.html">📊 Insights</a>
+  <a href="quiz.html">✅ Checklist</a>
+</div>
+
+<div class="main">
+
+<h1 class="glow">AI Truth Analysis</h1>
+
+<!-- SOURCE INFO -->
+<div class="glass card">
+<h3>Detected Source</h3>
+<span id="sourceTag" class="badge"></span>
+
+<h3>Source Reputation</h3>
+<div class="reputation">
+  <div id="repBar"></div>
+</div>
+</div>
+
+<!-- TRUTH SCORE -->
+<div class="glass card">
+<h3>Truth Score</h3>
+<div class="gauge">
+  <div id="gaugeFill"></div>
+</div>
+</div>
+
+<!-- RISK METERS -->
+<div class="glass card">
+
+<h3>Risk Analysis</h3>
+
+<div class="meter">Bias
+<div class="bar"><div id="biasBar"></div></div></div>
+
+<div class="meter">Emotional Manipulation
+<div class="bar"><div id="emotionBar"></div></div></div>
+
+<div class="meter">Clickbait
+<div class="bar"><div id="clickbaitBar"></div></div></div>
+
+<div class="meter">Fact Risk
+<div class="bar"><div id="factBar"></div></div></div>
+
+</div>
+
+<!-- AI EXPLANATION -->
+<div class="glass card">
+<h3>AI Reasoning</h3>
+<p id="aiExplanation"></p>
+</div>
+
+<!-- GLOBAL COUNTER -->
+<div class="glass card">
+<h3>🌍 Global Misinformation Counter</h3>
+<p id="counter"></p>
+</div>
+
+<!-- ACTIONS -->
+<div class="glass card">
+<h3>Suggested Actions</h3>
+<ul id="actions"></ul>
+
+<button onclick="downloadReport()">⬇ Download Report</button>
+</div>
+
+</div>
+
+<div class="neural-bg"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

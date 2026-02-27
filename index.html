@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TruthLens AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <h2 class="logo">TruthLens</h2>
+
+  <a href="index.html">🏠 Analyze</a>
+  <a href="newsroom.html">📰 Newsroom</a>
+  <a href="insights.html">📊 Insights</a>
+  <a href="quiz.html">✅ Checklist</a>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="main">
+
+<div class="hero">
+  <h1 class="glow">AI Misinformation Detector</h1>
+
+  <textarea id="newsInput"
+  placeholder="Paste news article, tweet or WhatsApp forward..."></textarea>
+
+  <button onclick="analyzeNews()">Analyze Truth</button>
+
+  <div id="thinking" class="thinking hidden">
+    AI analyzing<span class="dots"></span>
+  </div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
