@@ -57,13 +57,22 @@ Run
 Project Documentation
 For Software:
 Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name) Add caption explaining what this shows
 
-![Screenshot2](Add screenshot 2 here with proper name) Add caption explaining what this shows
+https://drive.google.com/drive/folders/1ocxIVCCT7xXPQF7g8bmWRWEn56xqxOEx?usp=drive_link
+Screenshot 1 – AI Input Dashboard
+This screen shows the main AI Misinformation Detector interface where users can paste a news article, tweet, or WhatsApp forward for analysis. The immersive dark-themed dashboard and “Analyze Truth” button initiate the credibility evaluation process.
 
-![Screenshot3](Add screenshot 3 here with proper name) Add caption explaining what this shows
+Screenshot 2 – AI Truth Analysis Report
+This screen displays the generated credibility report, including detected source type, source reputation meter, truth score, and detailed risk analysis (bias, emotional manipulation, clickbait probability, and fact risk). It also provides AI reasoning and suggested actions for responsible sharing.
 
+Screenshot 3 – Global Misinformation Counter & Suggested Actions
+This section highlights the global misinformation counter and recommended verification steps such as cross-checking sources, reverse image search, and avoiding immediate forwarding. It reinforces awareness and responsible digital behavior.
 
+Screenshot 4 – Global Heat Index
+This visualization presents regional misinformation risk levels across Asia, Europe, America, and Africa using color-coded heat bars, offering a simulated global risk overview.
+
+Screenshot 5 – Before Sharing Checklist
+This interactive checklist encourages users to verify sources, confirm multiple references, and validate media before sharing content, promoting critical thinking and digital responsibility.
 
 
 AI Tools Used (Optional - For Transparency Bonus)
