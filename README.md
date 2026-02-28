@@ -84,6 +84,6 @@ UI/UX design decisions
 
 Team Contributions
 Joanna : Frontend Development
-[Name 2]: UI/UX Development
+Sandra: UI/UX Development
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
